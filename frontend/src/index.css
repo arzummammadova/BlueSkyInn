@@ -1,0 +1,27 @@
+@import "tailwindcss";
+:root {
+    --color-primary: #3674B5;
+    --color-secondary: #153954;
+    --color-tertiary: #00f;
+    --text-color:white;
+    --text-grey:#5F5A5A;
+    --bg-color:#F2F1EE;
+    --border-color:#494646;
+    --bg-black:#000;
+    --bg-black-hover:#09122cf0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F1EE;
+    color: #333;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    accent-color: #153954; 
+    cursor: pointer;
+    color: white;
+  }
+  
