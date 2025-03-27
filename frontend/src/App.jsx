@@ -8,6 +8,7 @@ import Register from './pages/Auth/Register/Register';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import ForgotPassword from './pages/Auth/ForgotPassword/ForgotPassword';
 import ResetPassword from './pages/Auth/ResetPassword/ResetPassword';
+import OtpVerify from './pages/Auth/OtpVerify/OtpVerify';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path:'/resetpassword',
     element:<ResetPassword/>
+  },
+  {
+    path:'/otp-verify',
+    element:<OtpVerify/>
   }
 ]);
 const App = () => {
